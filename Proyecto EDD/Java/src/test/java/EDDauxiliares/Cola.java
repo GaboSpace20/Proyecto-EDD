@@ -16,9 +16,6 @@ class Cola<T> {
     private Nodo<T> pFinal;
     private int tamano;
 
-    void encolar(Grafo.EstadoBusqueda estadoInicial) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
     
     private static class Nodo<T> {
        T dato;
